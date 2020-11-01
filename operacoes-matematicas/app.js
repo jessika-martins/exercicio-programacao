@@ -1,9 +1,10 @@
-function adiciona (a,b){
-    return a+b;
+function adicionar (a,b){
+    return a + b;
 }
 
+function subtrair (a,b){
+    return a - b;
+}
 
-
-
-module.exports = adiciona;
-
+exports.adicionar = adicionar;
+exports.subtrair = subtrair;
