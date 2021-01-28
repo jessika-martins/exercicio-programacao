@@ -1,12 +1,13 @@
-const app = require ("./app")
-const appj = require("./app-juros")
+const app = require("./app")
 
-let a = parseFloat(process.argv[2], 10)
-let b = parseFloat(process.argv[3], 10)
+// entrada
+let porcentagem = parseFloat(process.argv[2], 10)
+let valor = parseFloat(process.argv[3], 10)
 
+// processamento
+montante = app.montante(porcentagem, valor)
+juros = app.juros(porcentagem, valor)
 
-resultado = app.valor(a,b)
-resultadoT = appj.juros(a,b)
-
-console.log(`O valor total a ser pago é ${resultado}`)
-console.log(`O valor total de juros a ser pago é ${resultadoT.toFixed(2)}`)
+// saída
+console.log(`O valor total a ser pago é ${montante}`)
+console.log(`O valor total de juros a ser pago é ${juros.toFixed(2)}`)

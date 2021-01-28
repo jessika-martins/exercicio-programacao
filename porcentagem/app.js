@@ -1,6 +1,10 @@
-function valor(p,num){
-    porcentagem = ((p/100)* num) + num 
-    return porcentagem
+function montante(p, num) {
+    return ((p / 100) * num) + num
 }
 
-module.exports.valor = valor
+function juros(p, num) {
+    montante = montante(p, num)
+    return montante - num
+}
+
+module.exports = { montante, juros }
