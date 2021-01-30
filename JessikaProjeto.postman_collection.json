@@ -1,0 +1,260 @@
+{
+	"info": {
+		"_postman_id": "cb14521e-8665-4fd7-8b8b-8c552924689b",
+		"name": "JessikaProjeto",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "porcentagem",
+			"item": [
+				{
+					"name": "montante",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/montante?p=2&num=1200",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"montante"
+							],
+							"query": [
+								{
+									"key": "p",
+									"value": "2"
+								},
+								{
+									"key": "num",
+									"value": "1200"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "juros",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/juros?p=2&num=1200",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"juros"
+							],
+							"query": [
+								{
+									"key": "p",
+									"value": "2"
+								},
+								{
+									"key": "num",
+									"value": "1200"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "porcentagem",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/porcentagem?p=2&num=1200",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"porcentagem"
+							],
+							"query": [
+								{
+									"key": "p",
+									"value": "2"
+								},
+								{
+									"key": "num",
+									"value": "1200"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "sinopse",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/sinopse?p=2&num=1200",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"sinopse"
+							],
+							"query": [
+								{
+									"key": "p",
+									"value": "2"
+								},
+								{
+									"key": "num",
+									"value": "1200"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "calc",
+			"item": [
+				{
+					"name": "múltiplo de 5 (a)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/multiplo-de-5-a?num=11",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"multiplo-de-5-a"
+							],
+							"query": [
+								{
+									"key": "num",
+									"value": "11"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "múltiplo de 5 (b)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/multiplo-de-5-b?num=11",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"multiplo-de-5-b"
+							],
+							"query": [
+								{
+									"key": "num",
+									"value": "11"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "múltiplo de 5 (c)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/multiplo-de-5-c?num=11",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"multiplo-de-5-c"
+							],
+							"query": [
+								{
+									"key": "num",
+									"value": "11"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "múltiplo de 5 (d)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/multiplo-de-5-d?num=11",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"multiplo-de-5-d"
+							],
+							"query": [
+								{
+									"key": "num",
+									"value": "11"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "múltiplo de 5 (e)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/multiplo-de-5-e?num=10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"multiplo-de-5-e"
+							],
+							"query": [
+								{
+									"key": "num",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
