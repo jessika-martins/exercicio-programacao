@@ -5,8 +5,8 @@ let porcentagem = parseFloat(process.argv[2], 10)
 let valor = parseFloat(process.argv[3], 10)
 
 // processamento
-montante = app.montante(porcentagem, valor)
-juros = app.juros(porcentagem, valor)
+let montante = app.montante(porcentagem, valor)
+let juros = app.juros(porcentagem, valor)
 
 // saída
 console.log(`O valor total a ser pago é ${montante}`)
