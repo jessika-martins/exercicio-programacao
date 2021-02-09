@@ -6,7 +6,10 @@ function media(nota1, nota2){
         return false
     }
 }
+function mediaTotal(nota1,nota2){
+   return total = (nota1+nota2)/2
+}
 
-module.exports = {media}
+module.exports = {media,mediaTotal}
 
 //console.log(media())

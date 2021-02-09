@@ -1,5 +1,6 @@
 const express = require('express')
 const api = require("./api")
+const mediaTotal = require("./api")
 
 const app = express();
 const port = 3000;
@@ -11,7 +12,10 @@ app.get('/media', (req,res) =>{
     let num2 = parseFloat(req.query.num2, 10)
 
     res.send({
-        resultado: api.media(num1,num2)
+        resultado: api.media(num1,num2),
+        total: api.mediaTotal(num1,num2)
+        
+        
     })
 })
 
